@@ -1,0 +1,29 @@
+Write a function to calculate the mean of a list of numbers without using any library.
+
+Use NumPy’s np.mean() to calculate the mean of a dataset and compare with your manual function.
+
+Find the mean of a dataset after removing duplicate values.
+
+Calculate the mean of only even numbers in a dataset.
+
+Calculate the mean of only odd numbers in a dataset.
+
+Write a function that calculates the mean of positive numbers only.
+
+Write a function that calculates the mean of negative numbers only.
+
+Calculate the mean of a dataset after excluding the maximum and minimum values.
+
+Calculate the mean of a dataset where values are weighted (weighted mean).
+
+Simulate rolling a die 100 times and calculate the mean of outcomes.
+
+Simulate tossing a coin 50 times (H=1, T=0) and calculate the mean outcome.
+
+Calculate the mean of a dataset column using Pandas DataFrame.
+
+Write a function that calculates the mean of squares of the dataset values.
+
+Write a function that calculates the mean of absolute values of a dataset.
+
+Compare the mean of two datasets and print which one is larger.
