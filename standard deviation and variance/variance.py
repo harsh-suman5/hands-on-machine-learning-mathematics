@@ -8,7 +8,11 @@ print("dataset values given: ",data)
 mean = np.mean(data)
 print(mean)
 
-std = np.var(data)
+variance = np.var(data)
+print(variance)
+
+std = np.std(data)
+
 print(std)
 
 plt.hist(data, bins=6, color='skyblue', edgecolor='black', alpha=0.7)
@@ -16,7 +20,9 @@ plt.hist(data, bins=6, color='skyblue', edgecolor='black', alpha=0.7)
 
 
 plt.axvline(mean, color='red', linestyle='dashed', linewidth=2, label=f'Mean = {mean:.2f}')
-plt.axhline(std, color='red', linestyle='dashed',linewidth=2, label=f'std = {std:.1f}' )
+plt.axhline(variance, color='red', linestyle='dashed',linewidth=2, label=f'variance = {variance:.1f}' )
+plt.axvline(std, color='red', linestyle='dashed',linewidth=2, label=f'std = {std:.1f}' )
+
 
 # Labels and title
 plt.xlabel('Arrival per minute')
