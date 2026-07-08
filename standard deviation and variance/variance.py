@@ -18,7 +18,6 @@ print(std)
 plt.hist(data, bins=6, color='skyblue', edgecolor='black', alpha=0.7)
 
 
-
 plt.axvline(mean, color='red', linestyle='dashed', linewidth=2, label=f'Mean = {mean:.2f}')
 plt.axhline(variance, color='red', linestyle='dashed',linewidth=2, label=f'variance = {variance:.1f}' )
 plt.axvline(std, color='red', linestyle='dashed',linewidth=2, label=f'std = {std:.1f}' )
